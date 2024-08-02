@@ -4,6 +4,7 @@ const Login = () => import('@/views/login/index.vue')
 const XfServiceList = () => import('@/views/xfServiceList/index.vue')
 const SourceList = () => import('@/views/sourceList/index.vue')
 const ZzServiceList = () => import('@/views/zzServiceList/index.vue')
+const Pay = () => import('@/views/pay/index.vue')
 
 const LoadError = () => import('@/views/loadError/index.vue')
 const NetworkError = () => import('@/views/networkError/index.vue')
@@ -42,6 +43,13 @@ const routes = [
     component: ZzServiceList,
     meta: {
       title: '增值服务列表',
+    },
+  },
+  {
+    path: '/pay',
+    component: Pay,
+    meta: {
+      title: '支付选择',
     },
   },
   {

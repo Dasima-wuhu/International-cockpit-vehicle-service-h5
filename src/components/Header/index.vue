@@ -33,7 +33,7 @@ const backFunc = () => {
 <style lang="less" scoped>
 .header-wrapper {
   position: fixed;
-  top: 0;
+  top: 40px;
   left: 0;
   width: 100%;
 
